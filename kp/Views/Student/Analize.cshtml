@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewBag.Title = "Analize";
+}
+<table class="table table-striped">
+
+    @if (((IEnumerable<dynamic>)ViewBag.Group).Count() > 0)
+    {
+
+        <tr>
+            <td><p><b> Обрати пожалуйста внимание на граппы предметов </b></p></td>
+        </tr>
+
+
+        foreach (var item in ViewBag.Group)
+        {
+
+            <tr>
+
+                <td>
+                    <p>
+                        <span class="icon">✔</span>
+                        @item
+                    </p>
+                </td>
+            </tr>
+
+        }
+
+
+
+    }
+
+    else
+
+    {
+        <tr>
+            <td><p>Продолжай в том же духе!</p></td>
+        </tr>
+
+    }
+</table>

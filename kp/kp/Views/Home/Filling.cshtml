@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "Filling";
+}
+
+<div class="login-wrap">
+    <div class="login-html">
+        @using (Html.BeginForm("Export", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            <input type="file" name="postedFile" multiple />
+
+            <input type="submit" class="button" id="btnUpload" value="Upload" class="btn-success" />
+        }
+</div>
+</div>

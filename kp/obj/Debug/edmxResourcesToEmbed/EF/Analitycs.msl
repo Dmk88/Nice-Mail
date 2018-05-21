@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище Analitics_twoModelContainer" CdmEntityContainer="Analitics_twoEntities">
+    <EntitySetMapping Name="Assessment">
+      <EntityTypeMapping TypeName="Analitics_twoModel.Assessment">
+        <MappingFragment StoreEntitySet="Assessment">
+          <ScalarProperty Name="ID_assesment" ColumnName="ID_assesment" />
+          <ScalarProperty Name="ID_subject" ColumnName="ID_subject" />
+          <ScalarProperty Name="Assessments" ColumnName="Assessments" />
+          <ScalarProperty Name="Attempt" ColumnName="Attempt" />
+          <ScalarProperty Name="ID_student" ColumnName="ID_student" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Course">
+      <EntityTypeMapping TypeName="Analitics_twoModel.Course">
+        <MappingFragment StoreEntitySet="Course">
+          <ScalarProperty Name="ID_course" ColumnName="ID_course" />
+          <ScalarProperty Name="Course1" ColumnName="Course" />
+          <ScalarProperty Name="Semester" ColumnName="Semester" />
+          <ScalarProperty Name="Group" ColumnName="Group" />
+          <ScalarProperty Name="ID_speciality" ColumnName="ID_speciality" />
+          <ScalarProperty Name="ID_student" ColumnName="ID_student" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Speciality">
+      <EntityTypeMapping TypeName="Analitics_twoModel.Speciality">
+        <MappingFragment StoreEntitySet="Speciality">
+          <ScalarProperty Name="ID_speciality" ColumnName="ID_speciality" />
+          <ScalarProperty Name="Name_speciality" ColumnName="Name_speciality" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Students">
+      <EntityTypeMapping TypeName="Analitics_twoModel.Students">
+        <MappingFragment StoreEntitySet="Students">
+          <ScalarProperty Name="ID_student" ColumnName="ID_student" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Patronymic" ColumnName="Patronymic" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Subjects">
+      <EntityTypeMapping TypeName="Analitics_twoModel.Subjects">
+        <MappingFragment StoreEntitySet="Subjects">
+          <ScalarProperty Name="ID_subject" ColumnName="ID_subject" />
+          <ScalarProperty Name="Name_subject" ColumnName="Name_subject" />
+          <!-- <ScalarProperty Name="Document" ColumnName="Document" />-->
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

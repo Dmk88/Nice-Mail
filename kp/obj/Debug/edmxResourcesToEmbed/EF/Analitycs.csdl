@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Analitics_twoModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Assessment">
+    <Key>
+      <PropertyRef Name="ID_assesment" />
+    </Key>
+    <Property Name="ID_assesment" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_subject" Type="Int32" Nullable="false" />
+    <Property Name="Assessments" Type="Int32" Nullable="false" />
+    <Property Name="Attempt" Type="Int32" Nullable="false" />
+    <Property Name="ID_student" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Students" Relationship="Self.FK_Assessment_Students" FromRole="Assessment" ToRole="Students" />
+    <NavigationProperty Name="Subjects" Relationship="Self.FK_Assessment_Subjects" FromRole="Assessment" ToRole="Subjects" />
+  </EntityType>
+  <EntityType Name="Course">
+    <Key>
+      <PropertyRef Name="ID_course" />
+    </Key>
+    <Property Name="ID_course" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Course1" Type="Int32" Nullable="false" />
+    <Property Name="Semester" Type="Int32" Nullable="false" />
+    <Property Name="Group" Type="Int32" Nullable="false" />
+    <Property Name="ID_speciality" Type="Int32" Nullable="false" />
+    <Property Name="ID_student" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Speciality" Relationship="Self.FK_Course_Speciality" FromRole="Course" ToRole="Speciality" />
+    <NavigationProperty Name="Students" Relationship="Self.FK_Course_Students" FromRole="Course" ToRole="Students" />
+  </EntityType>
+  <EntityType Name="Speciality">
+    <Key>
+      <PropertyRef Name="ID_speciality" />
+    </Key>
+    <Property Name="ID_speciality" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name_speciality" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Course" Relationship="Self.FK_Course_Speciality" FromRole="Speciality" ToRole="Course" />
+  </EntityType>
+  <EntityType Name="Students">
+    <Key>
+      <PropertyRef Name="ID_student" />
+    </Key>
+    <Property Name="ID_student" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Patronymic" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Assessment" Relationship="Self.FK_Assessment_Students" FromRole="Students" ToRole="Assessment" />
+    <NavigationProperty Name="Course" Relationship="Self.FK_Course_Students" FromRole="Students" ToRole="Course" />
+  </EntityType>
+  <EntityType Name="Subjects">
+    <Key>
+      <PropertyRef Name="ID_subject" />
+    </Key>
+    <Property Name="ID_subject" Type="Int32" Nullable="false" />
+    <Property Name="Name_subject" Type="String" MaxLength="300" FixedLength="true" Unicode="true" Nullable="false" />
+    <!-- <Property Name="Document" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />-->
+    <NavigationProperty Name="Assessment" Relationship="Self.FK_Assessment_Subjects" FromRole="Subjects" ToRole="Assessment" />
+  </EntityType>
+  <Association Name="FK_Assessment_Students">
+    <End Role="Students" Type="Self.Students" Multiplicity="1" />
+    <End Role="Assessment" Type="Self.Assessment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Students">
+        <PropertyRef Name="ID_student" />
+      </Principal>
+      <Dependent Role="Assessment">
+        <PropertyRef Name="ID_student" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Assessment_Subjects">
+    <End Role="Subjects" Type="Self.Subjects" Multiplicity="1" />
+    <End Role="Assessment" Type="Self.Assessment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subjects">
+        <PropertyRef Name="ID_subject" />
+      </Principal>
+      <Dependent Role="Assessment">
+        <PropertyRef Name="ID_subject" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Course_Speciality">
+    <End Role="Speciality" Type="Self.Speciality" Multiplicity="1" />
+    <End Role="Course" Type="Self.Course" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Speciality">
+        <PropertyRef Name="ID_speciality" />
+      </Principal>
+      <Dependent Role="Course">
+        <PropertyRef Name="ID_speciality" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Course_Students">
+    <End Role="Students" Type="Self.Students" Multiplicity="1" />
+    <End Role="Course" Type="Self.Course" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Students">
+        <PropertyRef Name="ID_student" />
+      </Principal>
+      <Dependent Role="Course">
+        <PropertyRef Name="ID_student" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Analitics_twoEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Assessment" EntityType="Self.Assessment" />
+    <EntitySet Name="Course" EntityType="Self.Course" />
+    <EntitySet Name="Speciality" EntityType="Self.Speciality" />
+    <EntitySet Name="Students" EntityType="Self.Students" />
+    <EntitySet Name="Subjects" EntityType="Self.Subjects" />
+    <AssociationSet Name="FK_Assessment_Students" Association="Self.FK_Assessment_Students">
+      <End Role="Students" EntitySet="Students" />
+      <End Role="Assessment" EntitySet="Assessment" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Assessment_Subjects" Association="Self.FK_Assessment_Subjects">
+      <End Role="Subjects" EntitySet="Subjects" />
+      <End Role="Assessment" EntitySet="Assessment" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Course_Speciality" Association="Self.FK_Course_Speciality">
+      <End Role="Speciality" EntitySet="Speciality" />
+      <End Role="Course" EntitySet="Course" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Course_Students" Association="Self.FK_Course_Students">
+      <End Role="Students" EntitySet="Students" />
+      <End Role="Course" EntitySet="Course" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

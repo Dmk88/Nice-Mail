@@ -1,0 +1,51 @@
+﻿@model kp.Models.AddPhoneNumberViewModel
+@{
+    ViewBag.Title = "Номер телефона";
+}
+
+<div class="login-wrap">
+    <div class="login-html">
+        @using (Html.BeginForm("AddPhoneNumber", "Manage", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+        {
+
+            <center>
+                @Html.AntiForgeryToken()
+                <h4>Добавление номера телефона</h4>
+                <hr />
+
+                    @Html.ValidationSummary("", new { @class = "text-danger" })
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.Number, new { @class = "col-md-2 control-label" })
+                        <center>
+                            <div class="col-md-10">
+                                @Html.TextBoxFor(m => m.Number, new { @class = "form-control" })
+                            </div>
+                        </center>
+                    </div>
+                    @*@Html.LabelFor(m => m.Number, new { @class = "col-md-2 control-label" })
+                        <br>
+                        <center>
+                            <div class="col-md-10">
+                                @Html.TextBoxFor(m => m.Number, new { @class = "form-control" })
+                            </div>
+                        </center>*@
+               
+            </center>
+            <center>
+                <div class="login-form">
+                    <div class="group">
+                        <div class="group">
+                            <input type="submit" class="button" id="sub" value="Отправить">
+                        </div>
+
+
+                    </div>
+                </div>
+            </center>}
+    </div>
+
+</div>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+
+}

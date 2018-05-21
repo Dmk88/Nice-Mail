@@ -1,0 +1,59 @@
+﻿
+@{
+    ViewBag.Title = "Studack";
+}
+
+<div class="login-wrap">
+    <div class="login-html">
+        @using (Html.BeginForm("AssesmentList", "Student", FormMethod.Get, new { enctype = "multipart/form-data" }))
+        {
+            <div class="login-form">
+                <div class="group">
+                    <center>
+                        <input id="idStudent" required="required" maxlength="8" min="1" type="text" name="Id"  class="input">
+                        <label for="Id" class="label">Номер студенческого</label>
+                    </center>
+                </div>
+                <center>
+                    <div class="group">
+                        <input type="submit" class="button" id="sub" value="Подтвердить">
+                    </div>
+                </center>
+            </div>
+        }
+
+
+
+
+            @*@section Scripts{
+                <script type="text/javascript">
+                    $(function () {
+                        $('#sub').click(function () {
+                            var Id = $('#idStudent').val();
+                            debugger;
+                            $.ajax({
+                                url: '@Url.Action("AssesmentList", "Student")',
+                                type: 'GET',
+                                data: {
+                                    '_studentId': Id
+                                },
+
+                                dataType: "json",
+                                success: function (response) {
+                                    //  $('#selectMod').modal('hide');
+                                    debugger;
+
+                                },
+                                //error: function(xhr, ajaxOptions, thrownError) {
+                                //    debugger;
+                                //    $('#selectMod').modal('hide');
+                                //}
+                            });
+                        });
+                    });
+
+                </script>}*@
+
+    </div>
+
+</div>

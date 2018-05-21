@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище AnaliticModelContainer" CdmEntityContainer="AnaliticEntities1">
+    <EntitySetMapping Name="Assessment">
+      <EntityTypeMapping TypeName="AnaliticModel.Assessment">
+        <MappingFragment StoreEntitySet="Assessment">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ID_assessment" ColumnName="ID_assessment" />
+          <ScalarProperty Name="ID_subject" ColumnName="ID_subject" />
+          <ScalarProperty Name="Assessment1" ColumnName="Assessment" />
+          <ScalarProperty Name="ID_student" ColumnName="ID_student" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Course">
+      <EntityTypeMapping TypeName="AnaliticModel.Course">
+        <MappingFragment StoreEntitySet="Course">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Course1" ColumnName="Course" />
+          <ScalarProperty Name="Semester" ColumnName="Semester" />
+          <ScalarProperty Name="Group" ColumnName="Group" />
+          <ScalarProperty Name="ID_speciality" ColumnName="ID_speciality" />
+          <ScalarProperty Name="ID_student" ColumnName="ID_student" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Speciality">
+      <EntityTypeMapping TypeName="AnaliticModel.Speciality">
+        <MappingFragment StoreEntitySet="Speciality">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ID_speciality" ColumnName="ID_speciality" />
+          <ScalarProperty Name="Name_speciality" ColumnName="Name_speciality" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Student">
+      <EntityTypeMapping TypeName="AnaliticModel.Student">
+        <MappingFragment StoreEntitySet="Student">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ID_student" ColumnName="ID_student" />
+          <ScalarProperty Name="Firsname" ColumnName="Firsname" />
+          <ScalarProperty Name="Lastname" ColumnName="Lastname" />
+          <ScalarProperty Name="Patronimic" ColumnName="Patronimic" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Subject">
+      <EntityTypeMapping TypeName="AnaliticModel.Subject">
+        <MappingFragment StoreEntitySet="Subject">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ID_subject" ColumnName="ID_subject" />
+          <ScalarProperty Name="Name_subject" ColumnName="Name_subject" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

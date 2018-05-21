@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "Список предметов";
+}
+
+
+
+<div class="login-wrap">
+    <div class="login-html">
+        <table>
+            <tr>
+                <td><p>ID-предмета</p></td>
+                <td><p>Наименование</p></td>
+            </tr>
+            @foreach (var b in ViewBag.Subjects)
+            {
+                <tr>
+                    <td><p>@b.ID_sub</p></td>
+                    <td><p>@b.Name_sub</p></td>
+                </tr>
+            }
+        </table>
+
+    </div>
+</div>
+

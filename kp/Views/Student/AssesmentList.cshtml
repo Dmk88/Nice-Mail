@@ -1,0 +1,91 @@
+﻿@model  kp.Models.AssesmentListViewModel
+@{
+    ViewBag.Title = "AssesmentList";
+}
+
+<table class="table">
+    <tr>
+        <td><p>Номер студенческого</p></td>
+        <td><p>Фамилия</p></td>
+        <td><p>Имя</p></td>
+        <td><p>Отчество</p></td>
+        <td><p>Курс</p></td>
+        <td><p>Семестр</p></td>
+        <td><p>Предмет</p></td>
+        <td><p>Оценка</p></td>
+    </tr>
+    <tr>
+        <td>
+            <p>
+                @Model.UserID
+            </p>
+        </td>
+        <td>
+            <p>
+                @Model.Lastname
+            </p>
+        </td>
+        <td>
+            <p>
+                @Model.Firstname
+            </p>
+        </td>
+        <td>
+            <p>
+                @Model.Patronymic
+            </p>
+        </td>
+        <td>
+            <p>
+                @Model.Courses
+            </p>
+        </td>
+        <td>
+            <p>
+                @Model.Semester
+            </p>
+        </td>
+        <td>
+            <p>
+                @foreach (var item in @Model.AssesmentsList)
+                {
+
+                    <a>
+
+                        @item.Subject.Name_subject
+                        <br />
+                        <br />
+                    </a>
+                }
+            </p>
+        </td>
+        <td>
+            <p>
+                @foreach (var item in @Model.AssesmentsList)
+                {
+
+                    <a>
+                        @item.Assessment1
+                        <br />
+                        <br />
+
+                    </a>
+                }
+            </p>
+        </td>
+    </tr>
+
+</table>
+<div class="login-form">
+    <div class="sign-in-htm">
+        <div class="group">
+            <center>
+                @using (Html.BeginForm("Analize", "Student", FormMethod.Post))
+            {
+                    <input type="hidden" name="Id" value="@Model.UserID" />
+                    <input type="submit" class="button" id="Id" value="Пронализировать">
+                }
+            </center>
+        </div>
+    </div>
+</div>

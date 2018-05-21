@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Хранилище AnaliticModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Assessment">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ID_assessment" Type="int" Nullable="false" />
+          <Property Name="ID_subject" Type="int" Nullable="false" />
+          <Property Name="Assessment" Type="int" Nullable="false" />
+          <Property Name="ID_student" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Course">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Course" Type="int" Nullable="false" />
+          <Property Name="Semester" Type="int" Nullable="false" />
+          <Property Name="Group" Type="int" Nullable="false" />
+          <Property Name="ID_speciality" Type="int" Nullable="false" />
+          <Property Name="ID_student" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Speciality">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ID_speciality" Type="int" Nullable="false" />
+          <Property Name="Name_speciality" Type="nchar" MaxLength="300" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Student">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ID_student" Type="int" Nullable="false" />
+          <Property Name="Firsname" Type="nchar" MaxLength="100" Nullable="false" />
+          <Property Name="Lastname" Type="nchar" MaxLength="100" Nullable="false" />
+          <Property Name="Patronimic" Type="nchar" MaxLength="100" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Subject">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ID_subject" Type="int" Nullable="false" />
+          <Property Name="Name_subject" Type="nchar" MaxLength="300" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_Assessment_Student">
+          <End Role="Student" Type="Self.Student" Multiplicity="1" />
+          <End Role="Assessment" Type="Self.Assessment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Student">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Assessment">
+              <PropertyRef Name="ID_student" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Assessment_Subject">
+          <End Role="Subject" Type="Self.Subject" Multiplicity="1" />
+          <End Role="Assessment" Type="Self.Assessment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Subject">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Assessment">
+              <PropertyRef Name="ID_subject" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Course_Speciality">
+          <End Role="Speciality" Type="Self.Speciality" Multiplicity="1" />
+          <End Role="Course" Type="Self.Course" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Speciality">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Course">
+              <PropertyRef Name="ID_speciality" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Course_Student">
+          <End Role="Student" Type="Self.Student" Multiplicity="1" />
+          <End Role="Course" Type="Self.Course" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Student">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Course">
+              <PropertyRef Name="ID_student" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="Хранилище AnaliticModelContainer">
+          <EntitySet Name="Assessment" EntityType="Self.Assessment" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Course" EntityType="Self.Course" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Speciality" EntityType="Self.Speciality" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Student" EntityType="Self.Student" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Subject" EntityType="Self.Subject" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_Assessment_Student" Association="Self.FK_Assessment_Student">
+            <End Role="Student" EntitySet="Student" />
+            <End Role="Assessment" EntitySet="Assessment" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Assessment_Subject" Association="Self.FK_Assessment_Subject">
+            <End Role="Subject" EntitySet="Subject" />
+            <End Role="Assessment" EntitySet="Assessment" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Course_Speciality" Association="Self.FK_Course_Speciality">
+            <End Role="Speciality" EntitySet="Speciality" />
+            <End Role="Course" EntitySet="Course" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Course_Student" Association="Self.FK_Course_Student">
+            <End Role="Student" EntitySet="Student" />
+            <End Role="Course" EntitySet="Course" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="AnaliticModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Assessment">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ID_assessment" Type="Int32" Nullable="false" />
+          <Property Name="ID_subject" Type="Int32" Nullable="false" />
+          <Property Name="Assessment1" Type="Int32" Nullable="false" />
+          <Property Name="ID_student" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Student" Relationship="Self.FK_Assessment_Student" FromRole="Assessment" ToRole="Student" />
+          <NavigationProperty Name="Subject" Relationship="Self.FK_Assessment_Subject" FromRole="Assessment" ToRole="Subject" />
+        </EntityType>
+        <EntityType Name="Course">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Course1" Type="Int32" Nullable="false" />
+          <Property Name="Semester" Type="Int32" Nullable="false" />
+          <Property Name="Group" Type="Int32" Nullable="false" />
+          <Property Name="ID_speciality" Type="Int32" Nullable="false" />
+          <Property Name="ID_student" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Speciality" Relationship="Self.FK_Course_Speciality" FromRole="Course" ToRole="Speciality" />
+          <NavigationProperty Name="Student" Relationship="Self.FK_Course_Student" FromRole="Course" ToRole="Student" />
+        </EntityType>
+        <EntityType Name="Speciality">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ID_speciality" Type="Int32" Nullable="false" />
+          <Property Name="Name_speciality" Type="String" MaxLength="300" FixedLength="true" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Course" Relationship="Self.FK_Course_Speciality" FromRole="Speciality" ToRole="Course" />
+        </EntityType>
+        <EntityType Name="Student">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ID_student" Type="Int32" Nullable="false" />
+          <Property Name="Firsname" Type="String" MaxLength="100" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="Lastname" Type="String" MaxLength="100" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="Patronimic" Type="String" MaxLength="100" FixedLength="true" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Assessment" Relationship="Self.FK_Assessment_Student" FromRole="Student" ToRole="Assessment" />
+          <NavigationProperty Name="Course" Relationship="Self.FK_Course_Student" FromRole="Student" ToRole="Course" />
+        </EntityType>
+        <EntityType Name="Subject">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ID_subject" Type="Int32" Nullable="false" />
+          <Property Name="Name_subject" Type="String" MaxLength="300" FixedLength="true" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Assessment" Relationship="Self.FK_Assessment_Subject" FromRole="Subject" ToRole="Assessment" />
+        </EntityType>
+        <Association Name="FK_Assessment_Student">
+          <End Role="Student" Type="Self.Student" Multiplicity="1" />
+          <End Role="Assessment" Type="Self.Assessment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Student">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Assessment">
+              <PropertyRef Name="ID_student" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Assessment_Subject">
+          <End Role="Subject" Type="Self.Subject" Multiplicity="1" />
+          <End Role="Assessment" Type="Self.Assessment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Subject">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Assessment">
+              <PropertyRef Name="ID_subject" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Course_Speciality">
+          <End Role="Speciality" Type="Self.Speciality" Multiplicity="1" />
+          <End Role="Course" Type="Self.Course" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Speciality">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Course">
+              <PropertyRef Name="ID_speciality" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Course_Student">
+          <End Role="Student" Type="Self.Student" Multiplicity="1" />
+          <End Role="Course" Type="Self.Course" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Student">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Course">
+              <PropertyRef Name="ID_student" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="AnaliticEntities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Assessment" EntityType="Self.Assessment" />
+          <EntitySet Name="Course" EntityType="Self.Course" />
+          <EntitySet Name="Speciality" EntityType="Self.Speciality" />
+          <EntitySet Name="Student" EntityType="Self.Student" />
+          <EntitySet Name="Subject" EntityType="Self.Subject" />
+          <AssociationSet Name="FK_Assessment_Student" Association="Self.FK_Assessment_Student">
+            <End Role="Student" EntitySet="Student" />
+            <End Role="Assessment" EntitySet="Assessment" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Assessment_Subject" Association="Self.FK_Assessment_Subject">
+            <End Role="Subject" EntitySet="Subject" />
+            <End Role="Assessment" EntitySet="Assessment" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Course_Speciality" Association="Self.FK_Course_Speciality">
+            <End Role="Speciality" EntitySet="Speciality" />
+            <End Role="Course" EntitySet="Course" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Course_Student" Association="Self.FK_Course_Student">
+            <End Role="Student" EntitySet="Student" />
+            <End Role="Course" EntitySet="Course" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Хранилище AnaliticModelContainer" CdmEntityContainer="AnaliticEntities1">
+          <EntitySetMapping Name="Assessment">
+            <EntityTypeMapping TypeName="AnaliticModel.Assessment">
+              <MappingFragment StoreEntitySet="Assessment">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="ID_assessment" ColumnName="ID_assessment" />
+                <ScalarProperty Name="ID_subject" ColumnName="ID_subject" />
+                <ScalarProperty Name="Assessment1" ColumnName="Assessment" />
+                <ScalarProperty Name="ID_student" ColumnName="ID_student" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Course">
+            <EntityTypeMapping TypeName="AnaliticModel.Course">
+              <MappingFragment StoreEntitySet="Course">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Course1" ColumnName="Course" />
+                <ScalarProperty Name="Semester" ColumnName="Semester" />
+                <ScalarProperty Name="Group" ColumnName="Group" />
+                <ScalarProperty Name="ID_speciality" ColumnName="ID_speciality" />
+                <ScalarProperty Name="ID_student" ColumnName="ID_student" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Speciality">
+            <EntityTypeMapping TypeName="AnaliticModel.Speciality">
+              <MappingFragment StoreEntitySet="Speciality">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="ID_speciality" ColumnName="ID_speciality" />
+                <ScalarProperty Name="Name_speciality" ColumnName="Name_speciality" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Student">
+            <EntityTypeMapping TypeName="AnaliticModel.Student">
+              <MappingFragment StoreEntitySet="Student">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="ID_student" ColumnName="ID_student" />
+                <ScalarProperty Name="Firsname" ColumnName="Firsname" />
+                <ScalarProperty Name="Lastname" ColumnName="Lastname" />
+                <ScalarProperty Name="Patronimic" ColumnName="Patronimic" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Subject">
+            <EntityTypeMapping TypeName="AnaliticModel.Subject">
+              <MappingFragment StoreEntitySet="Subject">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="ID_subject" ColumnName="ID_subject" />
+                <ScalarProperty Name="Name_subject" ColumnName="Name_subject" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Нет" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

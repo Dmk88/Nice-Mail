@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "Список предметов";
+}
+
+<br />
+    <table class="table table-striped" >
+        <tr>
+            <td><p>ID-предмета</p></td>
+            <td><p>Наименование</p></td>
+        </tr>
+
+
+        @foreach (var b in ViewBag.Subjects)
+            {
+
+            <tr>
+                <td><p>@b.ID_sub</p></td>
+                <td><p>@b.Name_sub</p></td>
+            </tr>
+        }
+    </table>
+

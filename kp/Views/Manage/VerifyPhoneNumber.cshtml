@@ -1,0 +1,42 @@
+﻿@model kp.Models.VerifyPhoneNumberViewModel
+@{
+    ViewBag.Title = "Проверка номера телефона";
+}
+
+<div class="login-wrap">
+    <div class="login-html">
+        @using (Html.BeginForm("VerifyPhoneNumber", "Manage", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+        {
+            <div class="login-form">
+                <div class="group">
+                    @Html.AntiForgeryToken()
+                    @Html.Hidden("phoneNumber", @Model.PhoneNumber)
+                    <center>
+                        <h4>Введите проверочный код</h4>
+                    </center>
+                    <h5>@ViewBag.Status</h5>
+                    <hr />
+                    @Html.ValidationSummary("", new { @class = "text-danger" })
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.Code, new { @class = "col-md-2 control-label" })
+                        <center>
+                            <div class="col-md-10">
+                                @Html.TextBoxFor(m => m.Code, new { @class = "form-control" })
+                            </div>
+                        </center>
+                    </div>
+                    <center>
+                        <div class="group">
+                            <input type="submit" class="button" id="sub" value="Отправить">
+                        </div>
+                    </center>
+
+                </div>
+            </div>
+        }
+    </div>
+
+</div>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

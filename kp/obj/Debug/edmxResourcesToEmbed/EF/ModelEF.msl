@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище AnaliticsModelContainer" CdmEntityContainer="AnaliticsEntitiesContext">
+    <EntitySetMapping Name="Assesments">
+      <EntityTypeMapping TypeName="AnaliticsModel.Assesments">
+        <MappingFragment StoreEntitySet="Assesments">
+          <ScalarProperty Name="ID_assesment" ColumnName="ID_assesment" />
+          <ScalarProperty Name="ID_sub" ColumnName="ID_sub" />
+          <ScalarProperty Name="Аssessments" ColumnName="Аssessments" />
+          <ScalarProperty Name="Attempt" ColumnName="Attempt" />
+          <ScalarProperty Name="ID_student" ColumnName="ID_student" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Specialties">
+      <EntityTypeMapping TypeName="AnaliticsModel.Specialties">
+        <MappingFragment StoreEntitySet="Specialties">
+          <ScalarProperty Name="SpecialtyId" ColumnName="SpecialtyId" />
+          <ScalarProperty Name="Name_Specialty" ColumnName="Name_Specialty" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Students">
+      <EntityTypeMapping TypeName="AnaliticsModel.Students">
+        <MappingFragment StoreEntitySet="Students">
+          <ScalarProperty Name="Id_student" ColumnName="Id_student" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Patronymic" ColumnName="Patronymic" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Subjects">
+      <EntityTypeMapping TypeName="AnaliticsModel.Subjects">
+        <MappingFragment StoreEntitySet="Subjects">
+          <ScalarProperty Name="ID_sub" ColumnName="ID_sub" />
+          <ScalarProperty Name="Name_sub" ColumnName="Name_sub" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="AnaliticsModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Courses">
+      <EntityTypeMapping TypeName="AnaliticsModel.Courses">
+        <MappingFragment StoreEntitySet="Courses">
+          <ScalarProperty Name="CourseId" ColumnName="CourseId" />
+          <ScalarProperty Name="Cour" ColumnName="Cour" />
+          <ScalarProperty Name="Semester" ColumnName="Semester" />
+          <ScalarProperty Name="Group" ColumnName="Group" />
+          <ScalarProperty Name="ID_Specialty" ColumnName="ID_Specialty" />
+          <ScalarProperty Name="ID_Student" ColumnName="ID_Student" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище AnaliticModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Assessment">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID_assessment" Type="int" Nullable="false" />
+    <Property Name="ID_subject" Type="int" Nullable="false" />
+    <Property Name="Assessment" Type="int" Nullable="false" />
+    <Property Name="ID_student" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Course">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Course" Type="int" Nullable="false" />
+    <Property Name="Semester" Type="int" Nullable="false" />
+    <Property Name="Group" Type="int" Nullable="false" />
+    <Property Name="ID_speciality" Type="int" Nullable="false" />
+    <Property Name="ID_student" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Speciality">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID_speciality" Type="int" Nullable="false" />
+    <Property Name="Name_speciality" Type="nchar" MaxLength="300" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID_student" Type="int" Nullable="false" />
+    <Property Name="Firsname" Type="nchar" MaxLength="100" Nullable="false" />
+    <Property Name="Lastname" Type="nchar" MaxLength="100" Nullable="false" />
+    <Property Name="Patronimic" Type="nchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Subject">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID_subject" Type="int" Nullable="false" />
+    <Property Name="Name_subject" Type="nchar" MaxLength="300" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Assessment_Student">
+    <End Role="Student" Type="Self.Student" Multiplicity="1" />
+    <End Role="Assessment" Type="Self.Assessment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Assessment">
+        <PropertyRef Name="ID_student" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Assessment_Subject">
+    <End Role="Subject" Type="Self.Subject" Multiplicity="1" />
+    <End Role="Assessment" Type="Self.Assessment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subject">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Assessment">
+        <PropertyRef Name="ID_subject" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Course_Speciality">
+    <End Role="Speciality" Type="Self.Speciality" Multiplicity="1" />
+    <End Role="Course" Type="Self.Course" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Speciality">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Course">
+        <PropertyRef Name="ID_speciality" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Course_Student">
+    <End Role="Student" Type="Self.Student" Multiplicity="1" />
+    <End Role="Course" Type="Self.Course" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Course">
+        <PropertyRef Name="ID_student" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище AnaliticModelContainer">
+    <EntitySet Name="Assessment" EntityType="Self.Assessment" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Course" EntityType="Self.Course" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Speciality" EntityType="Self.Speciality" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Student" EntityType="Self.Student" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Subject" EntityType="Self.Subject" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Assessment_Student" Association="Self.FK_Assessment_Student">
+      <End Role="Student" EntitySet="Student" />
+      <End Role="Assessment" EntitySet="Assessment" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Assessment_Subject" Association="Self.FK_Assessment_Subject">
+      <End Role="Subject" EntitySet="Subject" />
+      <End Role="Assessment" EntitySet="Assessment" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Course_Speciality" Association="Self.FK_Course_Speciality">
+      <End Role="Speciality" EntitySet="Speciality" />
+      <End Role="Course" EntitySet="Course" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Course_Student" Association="Self.FK_Course_Student">
+      <End Role="Student" EntitySet="Student" />
+      <End Role="Course" EntitySet="Course" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

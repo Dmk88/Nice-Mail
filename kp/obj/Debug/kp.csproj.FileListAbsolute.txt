@@ -1,0 +1,652 @@
+D:\ASP.NET_MVC\проги\kp\kp\obj\Debug\kp.Migrations.dbm.resources
+D:\ASP.NET_MVC\проги\kp\kp\obj\Debug\kp.csproj.GenerateResource.Cache
+D:\ASP.NET_MVC\проги\kp\kp\bin\ApplicationInsights.config
+D:\ASP.NET_MVC\проги\kp\kp\bin\roslyn\csc.exe
+D:\ASP.NET_MVC\проги\kp\kp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\ASP.NET_MVC\проги\kp\kp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\ASP.NET_MVC\проги\kp\kp\bin\roslyn\System.Collections.Immutable.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\roslyn\System.Reflection.Metadata.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\roslyn\vbc.exe
+D:\ASP.NET_MVC\проги\kp\kp\bin\roslyn\VBCSCompiler.exe
+D:\ASP.NET_MVC\проги\kp\kp\bin\roslyn\VBCSCompiler.exe.config
+D:\ASP.NET_MVC\проги\kp\kp\bin\kp.dll.config
+D:\ASP.NET_MVC\проги\kp\kp\bin\kp.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\kp.pdb
+D:\ASP.NET_MVC\проги\kp\kp\bin\Antlr3.Runtime.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\EntityFramework.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\EntityFramework.SqlServer.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\Microsoft.AI.Agent.Intercept.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\Microsoft.AI.DependencyCollector.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\Microsoft.AI.Web.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\Microsoft.AI.WindowsServer.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\Microsoft.ApplicationInsights.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\Microsoft.AspNet.Identity.Core.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\Microsoft.IdentityModel.Logging.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\Microsoft.IdentityModel.Tokens.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\Microsoft.Owin.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\Microsoft.Owin.Security.Cookies.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\Microsoft.Owin.Security.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\Microsoft.Owin.Security.Facebook.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\Microsoft.Owin.Security.Google.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\Microsoft.Owin.Security.OAuth.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\Microsoft.Owin.Security.Twitter.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\Microsoft.Web.Infrastructure.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\Newtonsoft.Json.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\Owin.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\System.Web.Helpers.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\System.Web.Mvc.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\System.Web.Optimization.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\System.Web.Razor.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\System.Web.WebPages.Deployment.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\System.Web.WebPages.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\System.Web.WebPages.Razor.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\Twilio.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\WebGrease.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\Antlr3.Runtime.pdb
+D:\ASP.NET_MVC\проги\kp\kp\bin\EntityFramework.xml
+D:\ASP.NET_MVC\проги\kp\kp\bin\EntityFramework.SqlServer.xml
+D:\ASP.NET_MVC\проги\kp\kp\bin\Microsoft.AI.DependencyCollector.xml
+D:\ASP.NET_MVC\проги\kp\kp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\ASP.NET_MVC\проги\kp\kp\bin\Microsoft.AI.Web.xml
+D:\ASP.NET_MVC\проги\kp\kp\bin\Microsoft.AI.WindowsServer.xml
+D:\ASP.NET_MVC\проги\kp\kp\bin\Microsoft.ApplicationInsights.xml
+D:\ASP.NET_MVC\проги\kp\kp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\ASP.NET_MVC\проги\kp\kp\bin\Microsoft.IdentityModel.Tokens.xml
+D:\ASP.NET_MVC\проги\kp\kp\bin\Newtonsoft.Json.xml
+D:\ASP.NET_MVC\проги\kp\kp\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\ASP.NET_MVC\проги\kp\kp\bin\System.Web.Helpers.xml
+D:\ASP.NET_MVC\проги\kp\kp\bin\System.Web.Mvc.xml
+D:\ASP.NET_MVC\проги\kp\kp\bin\System.Web.Optimization.xml
+D:\ASP.NET_MVC\проги\kp\kp\bin\System.Web.Razor.xml
+D:\ASP.NET_MVC\проги\kp\kp\bin\System.Web.WebPages.xml
+D:\ASP.NET_MVC\проги\kp\kp\bin\System.Web.WebPages.Deployment.xml
+D:\ASP.NET_MVC\проги\kp\kp\bin\System.Web.WebPages.Razor.xml
+D:\ASP.NET_MVC\проги\kp\kp\bin\Twilio.xml
+D:\ASP.NET_MVC\проги\kp\kp\bin\Microsoft.AspNet.Identity.Core.xml
+D:\ASP.NET_MVC\проги\kp\kp\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\ASP.NET_MVC\проги\kp\kp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\ASP.NET_MVC\проги\kp\kp\bin\Microsoft.Owin.xml
+D:\ASP.NET_MVC\проги\kp\kp\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\ASP.NET_MVC\проги\kp\kp\bin\Microsoft.Owin.Security.xml
+D:\ASP.NET_MVC\проги\kp\kp\bin\Microsoft.Owin.Security.Facebook.xml
+D:\ASP.NET_MVC\проги\kp\kp\bin\Microsoft.Owin.Security.Cookies.xml
+D:\ASP.NET_MVC\проги\kp\kp\bin\Microsoft.Owin.Security.OAuth.xml
+D:\ASP.NET_MVC\проги\kp\kp\bin\Microsoft.Owin.Security.Google.xml
+D:\ASP.NET_MVC\проги\kp\kp\bin\Microsoft.Owin.Security.Twitter.xml
+D:\ASP.NET_MVC\проги\kp\kp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\ASP.NET_MVC\проги\kp\kp\bin\ru\EntityFramework.resources.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\ru\EntityFramework.SqlServer.resources.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\ru\System.Web.Helpers.resources.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\ru\System.Web.Mvc.resources.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\ru\System.Web.Optimization.resources.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\ru\System.Web.Razor.resources.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\ru\System.Web.WebPages.resources.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\ru\System.Web.WebPages.Deployment.resources.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\ru\System.Web.WebPages.Razor.resources.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\ru\Microsoft.Owin.resources.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\ru\Microsoft.Owin.Security.resources.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+D:\ASP.NET_MVC\проги\kp\kp\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+D:\ASP.NET_MVC\проги\kp\kp\obj\Debug\kp.dll
+D:\ASP.NET_MVC\проги\kp\kp\obj\Debug\kp.pdb
+D:\ASP.NET_MVC\проги\kp\kp\obj\Debug\kp.csprojResolveAssemblyReference.cache
+D:\2 семестр\kp\kp\bin\ApplicationInsights.config
+D:\2 семестр\kp\kp\bin\roslyn\csc.exe
+D:\2 семестр\kp\kp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\2 семестр\kp\kp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\2 семестр\kp\kp\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\2 семестр\kp\kp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\2 семестр\kp\kp\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\2 семестр\kp\kp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\2 семестр\kp\kp\bin\roslyn\System.Collections.Immutable.dll
+D:\2 семестр\kp\kp\bin\roslyn\System.Reflection.Metadata.dll
+D:\2 семестр\kp\kp\bin\roslyn\vbc.exe
+D:\2 семестр\kp\kp\bin\roslyn\VBCSCompiler.exe
+D:\2 семестр\kp\kp\bin\roslyn\VBCSCompiler.exe.config
+D:\2 семестр\kp\kp\bin\kp.dll.config
+D:\2 семестр\kp\kp\bin\kp.dll
+D:\2 семестр\kp\kp\bin\kp.pdb
+D:\2 семестр\kp\kp\bin\Antlr3.Runtime.dll
+D:\2 семестр\kp\kp\bin\EntityFramework.dll
+D:\2 семестр\kp\kp\bin\EntityFramework.SqlServer.dll
+D:\2 семестр\kp\kp\bin\Microsoft.AI.Agent.Intercept.dll
+D:\2 семестр\kp\kp\bin\Microsoft.AI.DependencyCollector.dll
+D:\2 семестр\kp\kp\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\2 семестр\kp\kp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\2 семестр\kp\kp\bin\Microsoft.AI.Web.dll
+D:\2 семестр\kp\kp\bin\Microsoft.AI.WindowsServer.dll
+D:\2 семестр\kp\kp\bin\Microsoft.ApplicationInsights.dll
+D:\2 семестр\kp\kp\bin\Microsoft.AspNet.Identity.Core.dll
+D:\2 семестр\kp\kp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\2 семестр\kp\kp\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\2 семестр\kp\kp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\2 семестр\kp\kp\bin\Microsoft.IdentityModel.Logging.dll
+D:\2 семестр\kp\kp\bin\Microsoft.IdentityModel.Tokens.dll
+D:\2 семестр\kp\kp\bin\Microsoft.Owin.dll
+D:\2 семестр\kp\kp\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\2 семестр\kp\kp\bin\Microsoft.Owin.Security.Cookies.dll
+D:\2 семестр\kp\kp\bin\Microsoft.Owin.Security.dll
+D:\2 семестр\kp\kp\bin\Microsoft.Owin.Security.Facebook.dll
+D:\2 семестр\kp\kp\bin\Microsoft.Owin.Security.Google.dll
+D:\2 семестр\kp\kp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\2 семестр\kp\kp\bin\Microsoft.Owin.Security.OAuth.dll
+D:\2 семестр\kp\kp\bin\Microsoft.Owin.Security.Twitter.dll
+D:\2 семестр\kp\kp\bin\Microsoft.Web.Infrastructure.dll
+D:\2 семестр\kp\kp\bin\Newtonsoft.Json.dll
+D:\2 семестр\kp\kp\bin\Owin.dll
+D:\2 семестр\kp\kp\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\2 семестр\kp\kp\bin\System.Web.Helpers.dll
+D:\2 семестр\kp\kp\bin\System.Web.Mvc.dll
+D:\2 семестр\kp\kp\bin\System.Web.Optimization.dll
+D:\2 семестр\kp\kp\bin\System.Web.Razor.dll
+D:\2 семестр\kp\kp\bin\System.Web.WebPages.Deployment.dll
+D:\2 семестр\kp\kp\bin\System.Web.WebPages.dll
+D:\2 семестр\kp\kp\bin\System.Web.WebPages.Razor.dll
+D:\2 семестр\kp\kp\bin\Twilio.dll
+D:\2 семестр\kp\kp\bin\WebGrease.dll
+D:\2 семестр\kp\kp\bin\Antlr3.Runtime.pdb
+D:\2 семестр\kp\kp\bin\EntityFramework.xml
+D:\2 семестр\kp\kp\bin\EntityFramework.SqlServer.xml
+D:\2 семестр\kp\kp\bin\Microsoft.AI.DependencyCollector.xml
+D:\2 семестр\kp\kp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\2 семестр\kp\kp\bin\Microsoft.AI.Web.xml
+D:\2 семестр\kp\kp\bin\Microsoft.AI.WindowsServer.xml
+D:\2 семестр\kp\kp\bin\Microsoft.ApplicationInsights.xml
+D:\2 семестр\kp\kp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\2 семестр\kp\kp\bin\Microsoft.IdentityModel.Tokens.xml
+D:\2 семестр\kp\kp\bin\Newtonsoft.Json.xml
+D:\2 семестр\kp\kp\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\2 семестр\kp\kp\bin\System.Web.Helpers.xml
+D:\2 семестр\kp\kp\bin\System.Web.Mvc.xml
+D:\2 семестр\kp\kp\bin\System.Web.Optimization.xml
+D:\2 семестр\kp\kp\bin\System.Web.Razor.xml
+D:\2 семестр\kp\kp\bin\System.Web.WebPages.xml
+D:\2 семестр\kp\kp\bin\System.Web.WebPages.Deployment.xml
+D:\2 семестр\kp\kp\bin\System.Web.WebPages.Razor.xml
+D:\2 семестр\kp\kp\bin\Twilio.xml
+D:\2 семестр\kp\kp\bin\Microsoft.AspNet.Identity.Core.xml
+D:\2 семестр\kp\kp\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\2 семестр\kp\kp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\2 семестр\kp\kp\bin\Microsoft.Owin.xml
+D:\2 семестр\kp\kp\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\2 семестр\kp\kp\bin\Microsoft.Owin.Security.xml
+D:\2 семестр\kp\kp\bin\Microsoft.Owin.Security.Facebook.xml
+D:\2 семестр\kp\kp\bin\Microsoft.Owin.Security.Cookies.xml
+D:\2 семестр\kp\kp\bin\Microsoft.Owin.Security.OAuth.xml
+D:\2 семестр\kp\kp\bin\Microsoft.Owin.Security.Google.xml
+D:\2 семестр\kp\kp\bin\Microsoft.Owin.Security.Twitter.xml
+D:\2 семестр\kp\kp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\2 семестр\kp\kp\bin\ru\EntityFramework.resources.dll
+D:\2 семестр\kp\kp\bin\ru\EntityFramework.SqlServer.resources.dll
+D:\2 семестр\kp\kp\bin\ru\System.Web.Helpers.resources.dll
+D:\2 семестр\kp\kp\bin\ru\System.Web.Mvc.resources.dll
+D:\2 семестр\kp\kp\bin\ru\System.Web.Optimization.resources.dll
+D:\2 семестр\kp\kp\bin\ru\System.Web.Razor.resources.dll
+D:\2 семестр\kp\kp\bin\ru\System.Web.WebPages.resources.dll
+D:\2 семестр\kp\kp\bin\ru\System.Web.WebPages.Deployment.resources.dll
+D:\2 семестр\kp\kp\bin\ru\System.Web.WebPages.Razor.resources.dll
+D:\2 семестр\kp\kp\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+D:\2 семестр\kp\kp\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+D:\2 семестр\kp\kp\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+D:\2 семестр\kp\kp\bin\ru\Microsoft.Owin.resources.dll
+D:\2 семестр\kp\kp\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+D:\2 семестр\kp\kp\bin\ru\Microsoft.Owin.Security.resources.dll
+D:\2 семестр\kp\kp\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+D:\2 семестр\kp\kp\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+D:\2 семестр\kp\kp\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+D:\2 семестр\kp\kp\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+D:\2 семестр\kp\kp\obj\Debug\kp.Migrations.dbm.resources
+D:\2 семестр\kp\kp\obj\Debug\kp.csproj.GenerateResource.Cache
+D:\2 семестр\kp\kp\obj\Debug\kp.dll
+D:\2 семестр\kp\kp\obj\Debug\kp.pdb
+D:\3 семестр\kp\kp\bin\ApplicationInsights.config
+D:\3 семестр\kp\kp\bin\roslyn\csc.exe
+D:\3 семестр\kp\kp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\3 семестр\kp\kp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\3 семестр\kp\kp\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\3 семестр\kp\kp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\3 семестр\kp\kp\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\3 семестр\kp\kp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\3 семестр\kp\kp\bin\roslyn\System.Collections.Immutable.dll
+D:\3 семестр\kp\kp\bin\roslyn\System.Reflection.Metadata.dll
+D:\3 семестр\kp\kp\bin\roslyn\vbc.exe
+D:\3 семестр\kp\kp\bin\roslyn\VBCSCompiler.exe
+D:\3 семестр\kp\kp\bin\roslyn\VBCSCompiler.exe.config
+D:\3 семестр\kp\kp\bin\kp.dll.config
+D:\3 семестр\kp\kp\bin\kp.dll
+D:\3 семестр\kp\kp\bin\kp.pdb
+D:\3 семестр\kp\kp\bin\Antlr3.Runtime.dll
+D:\3 семестр\kp\kp\bin\EntityFramework.dll
+D:\3 семестр\kp\kp\bin\EntityFramework.SqlServer.dll
+D:\3 семестр\kp\kp\bin\Microsoft.AI.Agent.Intercept.dll
+D:\3 семестр\kp\kp\bin\Microsoft.AI.DependencyCollector.dll
+D:\3 семестр\kp\kp\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\3 семестр\kp\kp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\3 семестр\kp\kp\bin\Microsoft.AI.Web.dll
+D:\3 семестр\kp\kp\bin\Microsoft.AI.WindowsServer.dll
+D:\3 семестр\kp\kp\bin\Microsoft.ApplicationInsights.dll
+D:\3 семестр\kp\kp\bin\Microsoft.AspNet.Identity.Core.dll
+D:\3 семестр\kp\kp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\3 семестр\kp\kp\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\3 семестр\kp\kp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\3 семестр\kp\kp\bin\Microsoft.IdentityModel.Logging.dll
+D:\3 семестр\kp\kp\bin\Microsoft.IdentityModel.Tokens.dll
+D:\3 семестр\kp\kp\bin\Microsoft.Owin.dll
+D:\3 семестр\kp\kp\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\3 семестр\kp\kp\bin\Microsoft.Owin.Security.Cookies.dll
+D:\3 семестр\kp\kp\bin\Microsoft.Owin.Security.dll
+D:\3 семестр\kp\kp\bin\Microsoft.Owin.Security.Facebook.dll
+D:\3 семестр\kp\kp\bin\Microsoft.Owin.Security.Google.dll
+D:\3 семестр\kp\kp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\3 семестр\kp\kp\bin\Microsoft.Owin.Security.OAuth.dll
+D:\3 семестр\kp\kp\bin\Microsoft.Owin.Security.Twitter.dll
+D:\3 семестр\kp\kp\bin\Microsoft.Web.Infrastructure.dll
+D:\3 семестр\kp\kp\bin\Newtonsoft.Json.dll
+D:\3 семестр\kp\kp\bin\Owin.dll
+D:\3 семестр\kp\kp\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\3 семестр\kp\kp\bin\System.Web.Helpers.dll
+D:\3 семестр\kp\kp\bin\System.Web.Mvc.dll
+D:\3 семестр\kp\kp\bin\System.Web.Optimization.dll
+D:\3 семестр\kp\kp\bin\System.Web.Razor.dll
+D:\3 семестр\kp\kp\bin\System.Web.WebPages.Deployment.dll
+D:\3 семестр\kp\kp\bin\System.Web.WebPages.dll
+D:\3 семестр\kp\kp\bin\System.Web.WebPages.Razor.dll
+D:\3 семестр\kp\kp\bin\Twilio.dll
+D:\3 семестр\kp\kp\bin\WebGrease.dll
+D:\3 семестр\kp\kp\bin\Antlr3.Runtime.pdb
+D:\3 семестр\kp\kp\bin\EntityFramework.xml
+D:\3 семестр\kp\kp\bin\EntityFramework.SqlServer.xml
+D:\3 семестр\kp\kp\bin\Microsoft.AI.DependencyCollector.xml
+D:\3 семестр\kp\kp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\3 семестр\kp\kp\bin\Microsoft.AI.Web.xml
+D:\3 семестр\kp\kp\bin\Microsoft.AI.WindowsServer.xml
+D:\3 семестр\kp\kp\bin\Microsoft.ApplicationInsights.xml
+D:\3 семестр\kp\kp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\3 семестр\kp\kp\bin\Microsoft.IdentityModel.Tokens.xml
+D:\3 семестр\kp\kp\bin\Newtonsoft.Json.xml
+D:\3 семестр\kp\kp\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\3 семестр\kp\kp\bin\System.Web.Helpers.xml
+D:\3 семестр\kp\kp\bin\System.Web.Mvc.xml
+D:\3 семестр\kp\kp\bin\System.Web.Optimization.xml
+D:\3 семестр\kp\kp\bin\System.Web.Razor.xml
+D:\3 семестр\kp\kp\bin\System.Web.WebPages.xml
+D:\3 семестр\kp\kp\bin\System.Web.WebPages.Deployment.xml
+D:\3 семестр\kp\kp\bin\System.Web.WebPages.Razor.xml
+D:\3 семестр\kp\kp\bin\Twilio.xml
+D:\3 семестр\kp\kp\bin\Microsoft.AspNet.Identity.Core.xml
+D:\3 семестр\kp\kp\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\3 семестр\kp\kp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\3 семестр\kp\kp\bin\Microsoft.Owin.xml
+D:\3 семестр\kp\kp\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\3 семестр\kp\kp\bin\Microsoft.Owin.Security.xml
+D:\3 семестр\kp\kp\bin\Microsoft.Owin.Security.Facebook.xml
+D:\3 семестр\kp\kp\bin\Microsoft.Owin.Security.Cookies.xml
+D:\3 семестр\kp\kp\bin\Microsoft.Owin.Security.OAuth.xml
+D:\3 семестр\kp\kp\bin\Microsoft.Owin.Security.Google.xml
+D:\3 семестр\kp\kp\bin\Microsoft.Owin.Security.Twitter.xml
+D:\3 семестр\kp\kp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\3 семестр\kp\kp\bin\ru\EntityFramework.resources.dll
+D:\3 семестр\kp\kp\bin\ru\EntityFramework.SqlServer.resources.dll
+D:\3 семестр\kp\kp\bin\ru\System.Web.Helpers.resources.dll
+D:\3 семестр\kp\kp\bin\ru\System.Web.Mvc.resources.dll
+D:\3 семестр\kp\kp\bin\ru\System.Web.Optimization.resources.dll
+D:\3 семестр\kp\kp\bin\ru\System.Web.Razor.resources.dll
+D:\3 семестр\kp\kp\bin\ru\System.Web.WebPages.resources.dll
+D:\3 семестр\kp\kp\bin\ru\System.Web.WebPages.Deployment.resources.dll
+D:\3 семестр\kp\kp\bin\ru\System.Web.WebPages.Razor.resources.dll
+D:\3 семестр\kp\kp\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+D:\3 семестр\kp\kp\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+D:\3 семестр\kp\kp\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+D:\3 семестр\kp\kp\bin\ru\Microsoft.Owin.resources.dll
+D:\3 семестр\kp\kp\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+D:\3 семестр\kp\kp\bin\ru\Microsoft.Owin.Security.resources.dll
+D:\3 семестр\kp\kp\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+D:\3 семестр\kp\kp\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+D:\3 семестр\kp\kp\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+D:\3 семестр\kp\kp\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+D:\3 семестр\kp\kp\obj\Debug\kp.csprojResolveAssemblyReference.cache
+D:\3 семестр\kp\kp\obj\Debug\kp.dll
+D:\3 семестр\kp\kp\obj\Debug\kp.pdb
+D:\4 семестр\kp\kp\bin\ApplicationInsights.config
+D:\4 семестр\kp\kp\bin\roslyn\csc.exe
+D:\4 семестр\kp\kp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\4 семестр\kp\kp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\4 семестр\kp\kp\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\4 семестр\kp\kp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\4 семестр\kp\kp\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\4 семестр\kp\kp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\4 семестр\kp\kp\bin\roslyn\System.Collections.Immutable.dll
+D:\4 семестр\kp\kp\bin\roslyn\System.Reflection.Metadata.dll
+D:\4 семестр\kp\kp\bin\roslyn\vbc.exe
+D:\4 семестр\kp\kp\bin\roslyn\VBCSCompiler.exe
+D:\4 семестр\kp\kp\bin\roslyn\VBCSCompiler.exe.config
+D:\4 семестр\kp\kp\bin\kp.dll.config
+D:\4 семестр\kp\kp\bin\kp.dll
+D:\4 семестр\kp\kp\bin\kp.pdb
+D:\4 семестр\kp\kp\bin\Antlr3.Runtime.dll
+D:\4 семестр\kp\kp\bin\EntityFramework.dll
+D:\4 семестр\kp\kp\bin\EntityFramework.SqlServer.dll
+D:\4 семестр\kp\kp\bin\Microsoft.AI.Agent.Intercept.dll
+D:\4 семестр\kp\kp\bin\Microsoft.AI.DependencyCollector.dll
+D:\4 семестр\kp\kp\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\4 семестр\kp\kp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\4 семестр\kp\kp\bin\Microsoft.AI.Web.dll
+D:\4 семестр\kp\kp\bin\Microsoft.AI.WindowsServer.dll
+D:\4 семестр\kp\kp\bin\Microsoft.ApplicationInsights.dll
+D:\4 семестр\kp\kp\bin\Microsoft.AspNet.Identity.Core.dll
+D:\4 семестр\kp\kp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\4 семестр\kp\kp\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\4 семестр\kp\kp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\4 семестр\kp\kp\bin\Microsoft.Data.Edm.dll
+D:\4 семестр\kp\kp\bin\Microsoft.Data.OData.dll
+D:\4 семестр\kp\kp\bin\Microsoft.Data.Services.Client.dll
+D:\4 семестр\kp\kp\bin\Microsoft.Data.Services.dll
+D:\4 семестр\kp\kp\bin\Microsoft.IdentityModel.Logging.dll
+D:\4 семестр\kp\kp\bin\Microsoft.IdentityModel.Tokens.dll
+D:\4 семестр\kp\kp\bin\Microsoft.Owin.dll
+D:\4 семестр\kp\kp\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\4 семестр\kp\kp\bin\Microsoft.Owin.Security.Cookies.dll
+D:\4 семестр\kp\kp\bin\Microsoft.Owin.Security.dll
+D:\4 семестр\kp\kp\bin\Microsoft.Owin.Security.Facebook.dll
+D:\4 семестр\kp\kp\bin\Microsoft.Owin.Security.Google.dll
+D:\4 семестр\kp\kp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\4 семестр\kp\kp\bin\Microsoft.Owin.Security.OAuth.dll
+D:\4 семестр\kp\kp\bin\Microsoft.Owin.Security.Twitter.dll
+D:\4 семестр\kp\kp\bin\Microsoft.Web.Infrastructure.dll
+D:\4 семестр\kp\kp\bin\Newtonsoft.Json.dll
+D:\4 семестр\kp\kp\bin\Owin.dll
+D:\4 семестр\kp\kp\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\4 семестр\kp\kp\bin\System.Spatial.dll
+D:\4 семестр\kp\kp\bin\System.Web.Helpers.dll
+D:\4 семестр\kp\kp\bin\System.Web.Mvc.dll
+D:\4 семестр\kp\kp\bin\System.Web.Optimization.dll
+D:\4 семестр\kp\kp\bin\System.Web.Razor.dll
+D:\4 семестр\kp\kp\bin\System.Web.WebPages.Deployment.dll
+D:\4 семестр\kp\kp\bin\System.Web.WebPages.dll
+D:\4 семестр\kp\kp\bin\System.Web.WebPages.Razor.dll
+D:\4 семестр\kp\kp\bin\Twilio.dll
+D:\4 семестр\kp\kp\bin\WebGrease.dll
+D:\4 семестр\kp\kp\bin\Antlr3.Runtime.pdb
+D:\4 семестр\kp\kp\bin\EntityFramework.xml
+D:\4 семестр\kp\kp\bin\EntityFramework.SqlServer.xml
+D:\4 семестр\kp\kp\bin\Microsoft.AI.DependencyCollector.xml
+D:\4 семестр\kp\kp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\4 семестр\kp\kp\bin\Microsoft.AI.Web.xml
+D:\4 семестр\kp\kp\bin\Microsoft.AI.WindowsServer.xml
+D:\4 семестр\kp\kp\bin\Microsoft.ApplicationInsights.xml
+D:\4 семестр\kp\kp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\4 семестр\kp\kp\bin\Microsoft.Data.Edm.xml
+D:\4 семестр\kp\kp\bin\Microsoft.Data.OData.xml
+D:\4 семестр\kp\kp\bin\Microsoft.Data.Services.xml
+D:\4 семестр\kp\kp\bin\Microsoft.Data.Services.Client.xml
+D:\4 семестр\kp\kp\bin\Microsoft.IdentityModel.Tokens.xml
+D:\4 семестр\kp\kp\bin\Newtonsoft.Json.xml
+D:\4 семестр\kp\kp\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\4 семестр\kp\kp\bin\System.Spatial.xml
+D:\4 семестр\kp\kp\bin\System.Web.Helpers.xml
+D:\4 семестр\kp\kp\bin\System.Web.Mvc.xml
+D:\4 семестр\kp\kp\bin\System.Web.Optimization.xml
+D:\4 семестр\kp\kp\bin\System.Web.Razor.xml
+D:\4 семестр\kp\kp\bin\System.Web.WebPages.xml
+D:\4 семестр\kp\kp\bin\System.Web.WebPages.Deployment.xml
+D:\4 семестр\kp\kp\bin\System.Web.WebPages.Razor.xml
+D:\4 семестр\kp\kp\bin\Twilio.xml
+D:\4 семестр\kp\kp\bin\Microsoft.AspNet.Identity.Core.xml
+D:\4 семестр\kp\kp\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\4 семестр\kp\kp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\4 семестр\kp\kp\bin\Microsoft.Owin.xml
+D:\4 семестр\kp\kp\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\4 семестр\kp\kp\bin\Microsoft.Owin.Security.xml
+D:\4 семестр\kp\kp\bin\Microsoft.Owin.Security.Facebook.xml
+D:\4 семестр\kp\kp\bin\Microsoft.Owin.Security.Cookies.xml
+D:\4 семестр\kp\kp\bin\Microsoft.Owin.Security.OAuth.xml
+D:\4 семестр\kp\kp\bin\Microsoft.Owin.Security.Google.xml
+D:\4 семестр\kp\kp\bin\Microsoft.Owin.Security.Twitter.xml
+D:\4 семестр\kp\kp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\4 семестр\kp\kp\bin\ru\EntityFramework.resources.dll
+D:\4 семестр\kp\kp\bin\ru\EntityFramework.SqlServer.resources.dll
+D:\4 семестр\kp\kp\bin\de\Microsoft.Data.Edm.resources.dll
+D:\4 семестр\kp\kp\bin\es\Microsoft.Data.Edm.resources.dll
+D:\4 семестр\kp\kp\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\4 семестр\kp\kp\bin\it\Microsoft.Data.Edm.resources.dll
+D:\4 семестр\kp\kp\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\4 семестр\kp\kp\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\4 семестр\kp\kp\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\4 семестр\kp\kp\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\4 семестр\kp\kp\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\4 семестр\kp\kp\bin\de\Microsoft.Data.OData.resources.dll
+D:\4 семестр\kp\kp\bin\es\Microsoft.Data.OData.resources.dll
+D:\4 семестр\kp\kp\bin\fr\Microsoft.Data.OData.resources.dll
+D:\4 семестр\kp\kp\bin\it\Microsoft.Data.OData.resources.dll
+D:\4 семестр\kp\kp\bin\ja\Microsoft.Data.OData.resources.dll
+D:\4 семестр\kp\kp\bin\ko\Microsoft.Data.OData.resources.dll
+D:\4 семестр\kp\kp\bin\ru\Microsoft.Data.OData.resources.dll
+D:\4 семестр\kp\kp\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\4 семестр\kp\kp\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\4 семестр\kp\kp\bin\de\Microsoft.Data.Services.resources.dll
+D:\4 семестр\kp\kp\bin\es\Microsoft.Data.Services.resources.dll
+D:\4 семестр\kp\kp\bin\fr\Microsoft.Data.Services.resources.dll
+D:\4 семестр\kp\kp\bin\it\Microsoft.Data.Services.resources.dll
+D:\4 семестр\kp\kp\bin\ja\Microsoft.Data.Services.resources.dll
+D:\4 семестр\kp\kp\bin\ko\Microsoft.Data.Services.resources.dll
+D:\4 семестр\kp\kp\bin\ru\Microsoft.Data.Services.resources.dll
+D:\4 семестр\kp\kp\bin\zh-Hans\Microsoft.Data.Services.resources.dll
+D:\4 семестр\kp\kp\bin\zh-Hant\Microsoft.Data.Services.resources.dll
+D:\4 семестр\kp\kp\bin\de\Microsoft.Data.Services.Client.resources.dll
+D:\4 семестр\kp\kp\bin\es\Microsoft.Data.Services.Client.resources.dll
+D:\4 семестр\kp\kp\bin\fr\Microsoft.Data.Services.Client.resources.dll
+D:\4 семестр\kp\kp\bin\it\Microsoft.Data.Services.Client.resources.dll
+D:\4 семестр\kp\kp\bin\ja\Microsoft.Data.Services.Client.resources.dll
+D:\4 семестр\kp\kp\bin\ko\Microsoft.Data.Services.Client.resources.dll
+D:\4 семестр\kp\kp\bin\ru\Microsoft.Data.Services.Client.resources.dll
+D:\4 семестр\kp\kp\bin\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+D:\4 семестр\kp\kp\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+D:\4 семестр\kp\kp\bin\de\System.Spatial.resources.dll
+D:\4 семестр\kp\kp\bin\es\System.Spatial.resources.dll
+D:\4 семестр\kp\kp\bin\fr\System.Spatial.resources.dll
+D:\4 семестр\kp\kp\bin\it\System.Spatial.resources.dll
+D:\4 семестр\kp\kp\bin\ja\System.Spatial.resources.dll
+D:\4 семестр\kp\kp\bin\ko\System.Spatial.resources.dll
+D:\4 семестр\kp\kp\bin\ru\System.Spatial.resources.dll
+D:\4 семестр\kp\kp\bin\zh-Hans\System.Spatial.resources.dll
+D:\4 семестр\kp\kp\bin\zh-Hant\System.Spatial.resources.dll
+D:\4 семестр\kp\kp\bin\ru\System.Web.Helpers.resources.dll
+D:\4 семестр\kp\kp\bin\ru\System.Web.Mvc.resources.dll
+D:\4 семестр\kp\kp\bin\ru\System.Web.Optimization.resources.dll
+D:\4 семестр\kp\kp\bin\ru\System.Web.Razor.resources.dll
+D:\4 семестр\kp\kp\bin\ru\System.Web.WebPages.resources.dll
+D:\4 семестр\kp\kp\bin\ru\System.Web.WebPages.Deployment.resources.dll
+D:\4 семестр\kp\kp\bin\ru\System.Web.WebPages.Razor.resources.dll
+D:\4 семестр\kp\kp\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+D:\4 семестр\kp\kp\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+D:\4 семестр\kp\kp\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+D:\4 семестр\kp\kp\bin\ru\Microsoft.Owin.resources.dll
+D:\4 семестр\kp\kp\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+D:\4 семестр\kp\kp\bin\ru\Microsoft.Owin.Security.resources.dll
+D:\4 семестр\kp\kp\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+D:\4 семестр\kp\kp\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+D:\4 семестр\kp\kp\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+D:\4 семестр\kp\kp\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+D:\4 семестр\kp\kp\obj\Debug\kp.dll
+D:\4 семестр\kp\kp\obj\Debug\kp.pdb
+D:\4 семестр\kp\kp\obj\Debug\kp.csprojResolveAssemblyReference.cache
+D:\5 семестр\kp\kp\obj\Debug\kp.dll
+D:\5 семестр\kp\kp\obj\Debug\kp.pdb
+D:\5 семестр\kp\kp\bin\ApplicationInsights.config
+D:\5 семестр\kp\kp\bin\roslyn\csc.exe
+D:\5 семестр\kp\kp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\5 семестр\kp\kp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\5 семестр\kp\kp\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\5 семестр\kp\kp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\5 семестр\kp\kp\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\5 семестр\kp\kp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\5 семестр\kp\kp\bin\roslyn\System.Collections.Immutable.dll
+D:\5 семестр\kp\kp\bin\roslyn\System.Reflection.Metadata.dll
+D:\5 семестр\kp\kp\bin\roslyn\vbc.exe
+D:\5 семестр\kp\kp\bin\roslyn\VBCSCompiler.exe
+D:\5 семестр\kp\kp\bin\roslyn\VBCSCompiler.exe.config
+D:\5 семестр\kp\kp\bin\kp.dll.config
+D:\5 семестр\kp\kp\bin\kp.dll
+D:\5 семестр\kp\kp\bin\kp.pdb
+D:\5 семестр\kp\kp\bin\Antlr3.Runtime.dll
+D:\5 семестр\kp\kp\bin\EntityFramework.dll
+D:\5 семестр\kp\kp\bin\EntityFramework.SqlServer.dll
+D:\5 семестр\kp\kp\bin\Microsoft.AI.Agent.Intercept.dll
+D:\5 семестр\kp\kp\bin\Microsoft.AI.DependencyCollector.dll
+D:\5 семестр\kp\kp\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\5 семестр\kp\kp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\5 семестр\kp\kp\bin\Microsoft.AI.Web.dll
+D:\5 семестр\kp\kp\bin\Microsoft.AI.WindowsServer.dll
+D:\5 семестр\kp\kp\bin\Microsoft.ApplicationInsights.dll
+D:\5 семестр\kp\kp\bin\Microsoft.AspNet.Identity.Core.dll
+D:\5 семестр\kp\kp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\5 семестр\kp\kp\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\5 семестр\kp\kp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\5 семестр\kp\kp\bin\Microsoft.Data.Edm.dll
+D:\5 семестр\kp\kp\bin\Microsoft.Data.OData.dll
+D:\5 семестр\kp\kp\bin\Microsoft.Data.Services.Client.dll
+D:\5 семестр\kp\kp\bin\Microsoft.Data.Services.dll
+D:\5 семестр\kp\kp\bin\Microsoft.IdentityModel.Logging.dll
+D:\5 семестр\kp\kp\bin\Microsoft.IdentityModel.Tokens.dll
+D:\5 семестр\kp\kp\bin\Microsoft.Owin.dll
+D:\5 семестр\kp\kp\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\5 семестр\kp\kp\bin\Microsoft.Owin.Security.Cookies.dll
+D:\5 семестр\kp\kp\bin\Microsoft.Owin.Security.dll
+D:\5 семестр\kp\kp\bin\Microsoft.Owin.Security.Facebook.dll
+D:\5 семестр\kp\kp\bin\Microsoft.Owin.Security.Google.dll
+D:\5 семестр\kp\kp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\5 семестр\kp\kp\bin\Microsoft.Owin.Security.OAuth.dll
+D:\5 семестр\kp\kp\bin\Microsoft.Owin.Security.Twitter.dll
+D:\5 семестр\kp\kp\bin\Microsoft.Web.Infrastructure.dll
+D:\5 семестр\kp\kp\bin\Newtonsoft.Json.dll
+D:\5 семестр\kp\kp\bin\Owin.dll
+D:\5 семестр\kp\kp\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\5 семестр\kp\kp\bin\System.Spatial.dll
+D:\5 семестр\kp\kp\bin\System.Web.Helpers.dll
+D:\5 семестр\kp\kp\bin\System.Web.Mvc.dll
+D:\5 семестр\kp\kp\bin\System.Web.Optimization.dll
+D:\5 семестр\kp\kp\bin\System.Web.Razor.dll
+D:\5 семестр\kp\kp\bin\System.Web.WebPages.Deployment.dll
+D:\5 семестр\kp\kp\bin\System.Web.WebPages.dll
+D:\5 семестр\kp\kp\bin\System.Web.WebPages.Razor.dll
+D:\5 семестр\kp\kp\bin\Twilio.dll
+D:\5 семестр\kp\kp\bin\WebGrease.dll
+D:\5 семестр\kp\kp\bin\Antlr3.Runtime.pdb
+D:\5 семестр\kp\kp\bin\EntityFramework.xml
+D:\5 семестр\kp\kp\bin\EntityFramework.SqlServer.xml
+D:\5 семестр\kp\kp\bin\Microsoft.AI.DependencyCollector.xml
+D:\5 семестр\kp\kp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\5 семестр\kp\kp\bin\Microsoft.AI.Web.xml
+D:\5 семестр\kp\kp\bin\Microsoft.AI.WindowsServer.xml
+D:\5 семестр\kp\kp\bin\Microsoft.ApplicationInsights.xml
+D:\5 семестр\kp\kp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\5 семестр\kp\kp\bin\Microsoft.Data.Edm.xml
+D:\5 семестр\kp\kp\bin\Microsoft.Data.OData.xml
+D:\5 семестр\kp\kp\bin\Microsoft.Data.Services.xml
+D:\5 семестр\kp\kp\bin\Microsoft.Data.Services.Client.xml
+D:\5 семестр\kp\kp\bin\Microsoft.IdentityModel.Tokens.xml
+D:\5 семестр\kp\kp\bin\Newtonsoft.Json.xml
+D:\5 семестр\kp\kp\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\5 семестр\kp\kp\bin\System.Spatial.xml
+D:\5 семестр\kp\kp\bin\System.Web.Helpers.xml
+D:\5 семестр\kp\kp\bin\System.Web.Mvc.xml
+D:\5 семестр\kp\kp\bin\System.Web.Optimization.xml
+D:\5 семестр\kp\kp\bin\System.Web.Razor.xml
+D:\5 семестр\kp\kp\bin\System.Web.WebPages.xml
+D:\5 семестр\kp\kp\bin\System.Web.WebPages.Deployment.xml
+D:\5 семестр\kp\kp\bin\System.Web.WebPages.Razor.xml
+D:\5 семестр\kp\kp\bin\Twilio.xml
+D:\5 семестр\kp\kp\bin\Microsoft.AspNet.Identity.Core.xml
+D:\5 семестр\kp\kp\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\5 семестр\kp\kp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\5 семестр\kp\kp\bin\Microsoft.Owin.xml
+D:\5 семестр\kp\kp\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\5 семестр\kp\kp\bin\Microsoft.Owin.Security.xml
+D:\5 семестр\kp\kp\bin\Microsoft.Owin.Security.Facebook.xml
+D:\5 семестр\kp\kp\bin\Microsoft.Owin.Security.Cookies.xml
+D:\5 семестр\kp\kp\bin\Microsoft.Owin.Security.OAuth.xml
+D:\5 семестр\kp\kp\bin\Microsoft.Owin.Security.Google.xml
+D:\5 семестр\kp\kp\bin\Microsoft.Owin.Security.Twitter.xml
+D:\5 семестр\kp\kp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\5 семестр\kp\kp\bin\ru\EntityFramework.resources.dll
+D:\5 семестр\kp\kp\bin\ru\EntityFramework.SqlServer.resources.dll
+D:\5 семестр\kp\kp\bin\de\Microsoft.Data.Edm.resources.dll
+D:\5 семестр\kp\kp\bin\es\Microsoft.Data.Edm.resources.dll
+D:\5 семестр\kp\kp\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\5 семестр\kp\kp\bin\it\Microsoft.Data.Edm.resources.dll
+D:\5 семестр\kp\kp\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\5 семестр\kp\kp\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\5 семестр\kp\kp\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\5 семестр\kp\kp\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\5 семестр\kp\kp\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\5 семестр\kp\kp\bin\de\Microsoft.Data.OData.resources.dll
+D:\5 семестр\kp\kp\bin\es\Microsoft.Data.OData.resources.dll
+D:\5 семестр\kp\kp\bin\fr\Microsoft.Data.OData.resources.dll
+D:\5 семестр\kp\kp\bin\it\Microsoft.Data.OData.resources.dll
+D:\5 семестр\kp\kp\bin\ja\Microsoft.Data.OData.resources.dll
+D:\5 семестр\kp\kp\bin\ko\Microsoft.Data.OData.resources.dll
+D:\5 семестр\kp\kp\bin\ru\Microsoft.Data.OData.resources.dll
+D:\5 семестр\kp\kp\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\5 семестр\kp\kp\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\5 семестр\kp\kp\bin\de\Microsoft.Data.Services.resources.dll
+D:\5 семестр\kp\kp\bin\es\Microsoft.Data.Services.resources.dll
+D:\5 семестр\kp\kp\bin\fr\Microsoft.Data.Services.resources.dll
+D:\5 семестр\kp\kp\bin\it\Microsoft.Data.Services.resources.dll
+D:\5 семестр\kp\kp\bin\ja\Microsoft.Data.Services.resources.dll
+D:\5 семестр\kp\kp\bin\ko\Microsoft.Data.Services.resources.dll
+D:\5 семестр\kp\kp\bin\ru\Microsoft.Data.Services.resources.dll
+D:\5 семестр\kp\kp\bin\zh-Hans\Microsoft.Data.Services.resources.dll
+D:\5 семестр\kp\kp\bin\zh-Hant\Microsoft.Data.Services.resources.dll
+D:\5 семестр\kp\kp\bin\de\Microsoft.Data.Services.Client.resources.dll
+D:\5 семестр\kp\kp\bin\es\Microsoft.Data.Services.Client.resources.dll
+D:\5 семестр\kp\kp\bin\fr\Microsoft.Data.Services.Client.resources.dll
+D:\5 семестр\kp\kp\bin\it\Microsoft.Data.Services.Client.resources.dll
+D:\5 семестр\kp\kp\bin\ja\Microsoft.Data.Services.Client.resources.dll
+D:\5 семестр\kp\kp\bin\ko\Microsoft.Data.Services.Client.resources.dll
+D:\5 семестр\kp\kp\bin\ru\Microsoft.Data.Services.Client.resources.dll
+D:\5 семестр\kp\kp\bin\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+D:\5 семестр\kp\kp\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+D:\5 семестр\kp\kp\bin\de\System.Spatial.resources.dll
+D:\5 семестр\kp\kp\bin\es\System.Spatial.resources.dll
+D:\5 семестр\kp\kp\bin\fr\System.Spatial.resources.dll
+D:\5 семестр\kp\kp\bin\it\System.Spatial.resources.dll
+D:\5 семестр\kp\kp\bin\ja\System.Spatial.resources.dll
+D:\5 семестр\kp\kp\bin\ko\System.Spatial.resources.dll
+D:\5 семестр\kp\kp\bin\ru\System.Spatial.resources.dll
+D:\5 семестр\kp\kp\bin\zh-Hans\System.Spatial.resources.dll
+D:\5 семестр\kp\kp\bin\zh-Hant\System.Spatial.resources.dll
+D:\5 семестр\kp\kp\bin\ru\System.Web.Helpers.resources.dll
+D:\5 семестр\kp\kp\bin\ru\System.Web.Mvc.resources.dll
+D:\5 семестр\kp\kp\bin\ru\System.Web.Optimization.resources.dll
+D:\5 семестр\kp\kp\bin\ru\System.Web.Razor.resources.dll
+D:\5 семестр\kp\kp\bin\ru\System.Web.WebPages.resources.dll
+D:\5 семестр\kp\kp\bin\ru\System.Web.WebPages.Deployment.resources.dll
+D:\5 семестр\kp\kp\bin\ru\System.Web.WebPages.Razor.resources.dll
+D:\5 семестр\kp\kp\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+D:\5 семестр\kp\kp\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+D:\5 семестр\kp\kp\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+D:\5 семестр\kp\kp\bin\ru\Microsoft.Owin.resources.dll
+D:\5 семестр\kp\kp\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+D:\5 семестр\kp\kp\bin\ru\Microsoft.Owin.Security.resources.dll
+D:\5 семестр\kp\kp\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+D:\5 семестр\kp\kp\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+D:\5 семестр\kp\kp\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+D:\5 семестр\kp\kp\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll

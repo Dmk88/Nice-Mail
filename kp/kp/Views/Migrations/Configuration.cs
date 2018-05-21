@@ -1,0 +1,64 @@
+namespace kp.Migrations
+{
+    using Microsoft.AspNet.Identity;
+    using Microsoft.AspNet.Identity.EntityFramework;
+    using Models;
+    using System;
+    using System.Data.Entity;
+    using System.Data.Entity.Migrations;
+    using System.Linq;
+
+    internal sealed class Configuration : DbMigrationsConfiguration<kp.Models.ApplicationDbContext>
+    {
+        public Configuration()
+        {
+            AutomaticMigrationsEnabled = false;
+            ContextKey = "kp.Models.ApplicationDbContext";
+        }
+
+
+        protected override void Seed(kp.Models.ApplicationDbContext context)
+        {
+
+            var userManager = new ApplicationUserManager(new UserStore<ApplicationUser>(context));
+
+            var roleManager = new RoleManager<IdentityRole>(new RoleStore<IdentityRole>(context));
+
+            // создаем две роли
+            var role1 = new IdentityRole { Name = "admin" };
+            var role2 = new IdentityRole { Name = "user" };
+
+            // добавляем роли в бд
+            roleManager.Create(role1);
+            roleManager.Create(role2);
+
+            // создаем пользователей
+            var admin = new ApplicationUser { Email = "ekaterina.bazhezha@tut.by", UserName = "ekaterina.bazhezha@tut.by" };
+            string password = "23vfvfgfgfvfK!";
+            var result = userManager.Create(admin, password);
+
+            // если создание пользователя прошло успешно
+            if (result.Succeeded)
+            {
+                // добавляем для пользователя роль
+                userManager.AddToRole(admin.Id, role1.Name);
+                userManager.AddToRole(admin.Id, role2.Name);
+            }
+
+            base.Seed(context);
+
+            //  This method will be called after migrating to the latest version.
+
+            //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
+            //  to avoid creating duplicate seed data. E.g.
+            //
+            //    context.People.AddOrUpdate(
+            //      p => p.FullName,
+            //      new Person { FullName = "Andrew Peters" },
+            //      new Person { FullName = "Brice Lambson" },
+            //      new Person { FullName = "Rowan Miller" }
+            //    );
+            //
+        }
+    }
+}

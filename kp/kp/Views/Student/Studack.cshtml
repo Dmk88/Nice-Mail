@@ -1,0 +1,56 @@
+﻿
+@{
+    ViewBag.Title = "Studack";
+}
+
+<div class="login-wrap">
+    <div class="login-html">
+        @*@using (Html.BeginForm("Studack", "Student",FormMethod.Post))
+            {*@
+        <div class="login-form">
+            <div class="group">
+                <center>
+                    <label for="Id" class="label">Номер студенческого</label>
+                    <input id="idStudent" name="Id" type="text" class="input">
+                </center>
+            </div>
+            <center>
+                <div class="group">
+                    <input type="submit" class="button" id="sub" value="Подтвердить">
+                </div>
+            </center>
+        </div>
+        @*}*@
+
+    </div>
+
+</div>
+
+@section Scripts{
+    <script type="text/javascript">
+        $(function() {
+            $('#sub').click(function() {
+                var Id = $('#idStudent').val();
+                debugger;
+                        $.ajax({
+                            url: '@Url.Action("Studack", "Student")',
+                            type: 'POST',
+                            data: {
+                                'studentId': Id
+                            },
+
+                            dataType: "json",
+                            success: function(response) {
+                                $('#selectMod').modal('hide');
+                                debugger;
+
+                            },
+                            //error: function(xhr, ajaxOptions, thrownError) {
+                            //    debugger;
+                            //    $('#selectMod').modal('hide');
+                            //}
+                        });
+                    });
+                });
+
+    </script>}
